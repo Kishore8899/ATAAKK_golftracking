@@ -1,31 +1,21 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Untitled Document</title>
 <style>
-html{width:100%; height:100%; margin:0 auto;}
-.sector1{content:url("sector1.png"); float:left; width:25vw; height:25vh; position:absolute; margin:15vh 0 0 30vh; z-index:10; 
-transform: rotate(359deg); z-index:0;}
-.sector2{content:url("sector2.png"); float:left; width:25vw; height:25vh; position:absolute; margin:8vh 0 0 48vh; transform: rotate(3deg);}
-.sector3{content:url("sector3.png"); float:left; width:25vw; height:25vh; position:absolute; margin:9.5vh 0 0 81vh; transform: rotate(3deg)}
-.sector4{content:url("sector4.png"); float:left;  width:25vw; height:25vh; position:relative; margin:12vh 0 0 90vh; transform: rotate(3.3deg)}
-.sector5{content:url("sector5.png"); width:25vw; height:25vh; position:fixed; margin:30vh 0 0 29.5vh; transform: rotate(2deg); float:left;}
-.sector6{content:url("sector6.png"); width:25vw; height:25vh; position:fixed; margin:32vh 0 0 37vh; transform: rotate(356deg); float:left;}
-.sector7{content:url("sector7.png"); width:25vw; height:25vh; position:fixed; margin:32vh 0 0 83vh; transform: rotate(2deg); float:left;}
-.sector8{content:url("sector8.png"); width:25vw; height:25vh; position:fixed; margin:32vh 0 0 90vh; transform: rotate(2deg); float:left;}
+.trackBtn{width:20vh; height:10vh; border-radius: 5vh; margin:5vh 0 0 91vh; background: linear-gradient(seagreen,lightseagreen); font-size: 4vh;}
+.trackBtn:hover{cursor: pointer; background: linear-gradient(lightseagreen,seagreen);}
 </style>
+
+<form action="section.php" method="get">
+<input type="submit" value="Trackball" class="trackBtn">
+</form>
+
 </head>
 
-<body>
-<div style="position:absolute; margin:25vh 0 0 40vh; z-index:1;">1</div>
-<div class="sector1"></div>
-<div class="sector2"></div>
-<div class="sector3"></div>
-<div class="sector4"></div>
-<div class="sector5"></div>
-<div class="sector6"></div>
-<div class="sector7"></div>
-<div class="sector8"></div>
+<body background="grassBG.jpg" style="background-size: cover;">
+<img align="center" src="https://vectr.com/tmp/fNvK4rsuK/a4nMytvbB.svg?width=640&height=640&select=a4nMytvbBpage0" style="margin:0 0 0 48vh">
 </body>
 </html>
